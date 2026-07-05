@@ -19,6 +19,8 @@ grep -qxF "$LINE" "$PROFILE" || echo "$LINE" >> "$PROFILE"
 
 export PATH="$HOME/.npm-global/bin:$PATH"
 
+source "$PROFILE"
+
 npm install -g chat-cli-gemini-ai
 
 echo "Installation complete!"
