@@ -1,0 +1,22 @@
+{
+  "name": "chat-cli-gemini-ai",
+  "version": "1.1.0",
+  "type": "module",
+  "bin": {
+    "chat": "./bin/chat.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/chat.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "firebase": "^12.15.0",
+    "fs": "^0.0.1-security"
+  }
+}
