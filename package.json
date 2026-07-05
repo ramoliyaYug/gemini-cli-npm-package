@@ -5,14 +5,39 @@
   "bin": {
     "chat": "./bin/chat.js"
   },
-  "description": "",
+  "description": "AI-powered Gemini CLI for your terminal. Chat with Gemini, solve CodeChef and competitive programming problems, and improve code directly from the command line.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/chat.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "gemini",
+    "gemini-ai",
+    "google-gemini",
+    "ai",
+    "cli",
+    "terminal",
+    "chat",
+    "chat-cli",
+    "coding-assistant",
+    "competitive-programming",
+    "codechef",
+    "leetcode",
+    "codeforces",
+    "programming",
+    "developer-tools",
+    "command-line"
+  ],
+  "homepage": "https://github.com/ramoliyaYug/gemini-cli-npm-package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramoliyaYug/gemini-cli-npm-package"
+  },
+  "bugs": {
+    "url": "https://github.com/ramoliyaYug/gemini-cli-npm-package/issues"
+  },
+  "author": "Yug Ramoliya",
   "license": "ISC",
   "dependencies": {
     "@google/genai": "^2.10.0",
